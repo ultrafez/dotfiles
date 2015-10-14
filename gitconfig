@@ -1,0 +1,24 @@
+[user]
+	name = Alex Silcock
+[core]
+	editor = vim
+[color]
+	ui = true
+[push]
+	default = current
+[alias]
+	co = checkout
+	c = commit --verbose
+	st = status
+	s = status
+	f = fetch
+	ff = merge --ff-only
+	b = branch
+	r = rebase
+	m = merge
+	d = diff
+	dc = diff --cached
+	ru = reset --hard @{u}
+	#review = "!f() { git merge $1 --no-commit --no-ff; git diff --cached; }; f"
+[rerere]
+	enabled = true
