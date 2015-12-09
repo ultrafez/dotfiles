@@ -18,7 +18,7 @@
 	m = merge
 	d = diff
 	dc = diff --cached
-	ru = reset --hard @{u}
+	rh = reset --hard @{u}
 	#review = "!f() { git merge $1 --no-commit --no-ff; git diff --cached; }; f"
 [rerere]
 	enabled = true
