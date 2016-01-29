@@ -13,3 +13,5 @@ Dotfiles that aren't platform-specific should live in this root directory; platf
     path = ~/dotfiles/gitconfig
 ```
 
+* `tmux.conf` - tmux settings
+
