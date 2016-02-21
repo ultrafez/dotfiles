@@ -6,6 +6,8 @@ Dotfiles that aren't platform-specific should live in this root directory; platf
 
 ## Files/Directories
 
+* `scripts` - A directory of handy scripts. Include the "setupAliases" file in .bashrc/.zshrc to configure aliases to them
+
 * `gitconfig` - Only contains configuration that is shared inside and outside of work (email field is excluded). Include this file in the OS `.gitconfig` like so:
 
 ```

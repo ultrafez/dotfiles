@@ -1,0 +1,3 @@
+# Set up global aliases to handy scripts
+alias bbqs="~/dotfiles/scripts/bbqs.sh"
+
