@@ -2,6 +2,7 @@
 	name = Alex Silcock
 [core]
 	editor = vim
+	excludesfile = ~/dotfiles/gitignore_global
 [color]
 	ui = true
 [push]

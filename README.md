@@ -13,6 +13,8 @@ Dotfiles that aren't platform-specific should live in this root directory; platf
     path = ~/dotfiles/gitconfig
 ```
 
+* `gitignore` - Global git ignore. No setup required; included automatically by `gitconfig`
+
 * `tmux.conf` - tmux settings
 
 * `vimrc` - vim settings. Include it in ~/.vimrc like so:
