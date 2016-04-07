@@ -27,7 +27,21 @@ source ~/dotfiles/vimrc
 
 * `sublime-text` - Configuration for Sublime Text 3. Doesn't include SublimeGit config as it includes a license key.
 
-To set up, from `~/.config/sublime-text-3/Packages` run `ln -s ~/dotfiles/sublime-text/User User`
+```
+On Linux:
+
+From ~/.config/sublime-text-3/Packages:
+mv User User-old
+ln -s ~/dotfiles/sublime-text/User User
+
+On OS X:
+
+From ~/Library/Application Support/Sublime Text 3:
+mv User User-old
+ln -s ~/dotfiles/sublime-text/User User
+```
+
+Install Package Control and then restart Sublime a few times to finish setting everything up.
 
 * `zshrc` - zsh config script. Includes oh-my-zsh settings and common shell config from `shrc`. Any shell changes should be made in `shrc` if possible. Include it in ~/.zshrc like so:
 
