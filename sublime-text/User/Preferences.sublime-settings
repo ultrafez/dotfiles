@@ -1,8 +1,8 @@
 {
+	"enable_tab_scrolling": false,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"translate_tabs_to_spaces": true,
-    "enable_tab_scrolling": false,
+	"translate_tabs_to_spaces": true
 }
