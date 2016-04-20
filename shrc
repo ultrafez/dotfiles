@@ -1,3 +1,5 @@
 ZSH_THEME="steeef"
 
+alias v="vagrant"
+
 source ~/dotfiles/scripts/setupAliases
