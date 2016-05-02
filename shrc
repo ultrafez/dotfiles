@@ -3,3 +3,7 @@ ZSH_THEME="steeef"
 alias v="vagrant"
 
 source ~/dotfiles/scripts/setupAliases
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # Load nvm
+
