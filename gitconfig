@@ -9,7 +9,8 @@
 	default = current
 [alias]
 	co = checkout
-	c = commit --verbose
+	c = "!f() { git branch -a | grep -v remotes | grep $1 | xargs git checkout; }; f"
+	ci = commit
 	st = status
 	s = status
 	f = fetch
