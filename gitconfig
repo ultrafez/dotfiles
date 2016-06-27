@@ -10,7 +10,7 @@
 [alias]
 	co = checkout
     # fuzzy checkout - checkout a branch containing the string (even if the branch only exists on the remote)
-	c = "!f() { git branch -a | sed 's/remotes\\/origin\\///g' | grep $1 | xargs git checkout; }; f"
+	c = "!f() { git branch -a | sed 's/remotes\\/origin\\///g' | grep $1 | uniq | xargs git checkout; }; f"
 	ci = commit
 	st = status
 	s = status
