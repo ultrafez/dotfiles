@@ -44,7 +44,7 @@ ln -s ~/dotfiles/sublime-text/User User
 
 On OS X:
 
-From ~/Library/Application Support/Sublime Text 3:
+From ~/Library/Application Support/Sublime Text 3/Packages:
 mv User User-old
 ln -s ~/dotfiles/sublime-text/User User
 ```
