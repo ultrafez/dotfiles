@@ -6,5 +6,10 @@
 	[
 		"Vintage"
 	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
 	"translate_tabs_to_spaces": true
 }
