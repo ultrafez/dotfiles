@@ -1,10 +1,15 @@
 {
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
+    "theme": "Cobalt2.sublime-theme",
     "highlight_line": true,
+    "highlight_modified_tabs": true,
+    "line_padding_bottom": 1,
+    "line_padding_top": 1,
     "wide_caret": true,
     "caret_extra_bottom": 1,
     "caret_extra_top": 1,
     "caret_extra_width": 2,
+    "bold_folder_labels": true,
 	"enable_tab_scrolling": false,
 	"font_size": 12,
 	"ignored_packages":
