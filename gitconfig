@@ -16,8 +16,9 @@
 	s = status
 	f = fetch
 	ff = merge --ff-only
-    ffo = "!git merge --ff-only origin/$1"
+	ffo = "!git merge --ff-only origin/$1"
 	b = branch
+	br = branch
 	r = rebase
 	m = merge
 	d = diff
