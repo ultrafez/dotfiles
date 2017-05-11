@@ -1,6 +1,8 @@
 ZSH_THEME="steeef"
 
 alias v="vagrant"
+alias dr="docker"
+alias dc="docker-compose"
 
 source ~/dotfiles/scripts/setupAliases
 
