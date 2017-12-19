@@ -26,5 +26,7 @@
 	dc = diff --cached
 	rh = reset --hard @{u}
 	#review = "!f() { git merge $1 --no-commit --no-ff; git diff --cached; }; f"
+
+	recall = "!g() { ~/dotfiles/scripts/recall.sh $1 }; g"
 [rerere]
 	enabled = true
