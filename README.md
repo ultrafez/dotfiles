@@ -31,7 +31,7 @@ source ~/dotfiles/vimrc
 
 * `scripts` - A directory of handy scripts. Include the "setupAliases" file in .bashrc/.zshrc to configure aliases to them. The aliases script is already included in `shrc`.
 
-* `shrc` - Common shell configuration including aliases etc. Don't include this file directly in a shell config - make a shell-specific config file, and include this one.
+* `shrc` - Common shell configuration including aliases etc. Don't include this file directly in a shell config - make a shell-specific config file, and include this one. Loads aliases from [dockerfiles repo](https://github.com/ultrafez/dockerfiles) if it's checked out.
 
 * `sublime-text` - Configuration for Sublime Text 3. Doesn't include SublimeGit config as it includes a license key.
 

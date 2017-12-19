@@ -6,6 +6,10 @@ alias dc="docker-compose"
 
 source ~/dotfiles/scripts/setupAliases
 
+if [ -f ~/dockerfiles/aliases ]; then
+    source ~/dockerfiles/aliases
+fi
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
