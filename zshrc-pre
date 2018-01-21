@@ -1,0 +1,3 @@
+# Imported before oh-my-zsh is loaded
+
+ZSH_THEME="steeef"

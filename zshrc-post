@@ -1,3 +1,5 @@
+# Imported after oh-my-zsh is loaded
+
 source ~/dotfiles/shrc
 
 # If fzf is installed, load it

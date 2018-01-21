@@ -57,8 +57,17 @@ ln -s ~/dotfiles/sublime-text/User User
 
 Install Package Control and then restart Sublime a few times to finish setting everything up.
 
-* `zshrc` - zsh config script. Includes oh-my-zsh settings and common shell config from `shrc`. Any shell changes should be made in `shrc` if possible. Include it in ~/.zshrc like so (before sourcing oh-my-zsh):
+* `zshrc-pre` - zsh config script that gets run _before_ oh-my-zsh is loaded (if using). Includes oh-my-zsh settings. Limit to zsh-specific commands that must occur before oh-my-zsh is loaded.
+
+* `zshrc-post` - zsh config script that gets sourced _after_ oh-my-zsh is loaded (if using). Includes common shell config from `shrc`. Limit to zsh-specific commands; anything compatible with multiple shells should go in `shrc` instead.
+
+Load zshrc config files in `.zshrc` like so:
 
 ```
-source ~/dotfiles/zshrc
+source ~/dotfiles/zshrc-pre
+
+# load oh-my-zsh here e.g.
+# source $ZSH/oh-my-zsh.sh
+
+source ~/dotfiles/zshrc-post
 ```
