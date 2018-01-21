@@ -15,8 +15,8 @@
 		"GitGutter",
 		"Golang Build",
 		"Golang Tools Integration",
-		"Insert Nums",
 		"Indent XML",
+		"Insert Nums",
 		"JsFormat",
 		"Markdown Preview",
 		"Origami",
@@ -27,7 +27,7 @@
 		"SideBarEnhancements",
 		"SublimeGit",
 		"SublimeLinter",
-		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-eslint",
 		"Theme - Cobalt2",
 		"TrailingSpaces"
 	]
