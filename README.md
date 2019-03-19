@@ -9,7 +9,7 @@ Dotfiles that aren't platform-specific should live in this root directory; platf
 * `bashrc` - bash shell configuration file. Include it in `~/.bashrc` like so:
 
 ```
-source ~/dotfiles/zshrc
+source ~/dotfiles/bashrc
 ```
 
 * `gitconfig` - Only contains configuration that is shared inside and outside of work (email field is excluded). Include this file in the OS `.gitconfig` like so:
