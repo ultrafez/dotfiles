@@ -2,11 +2,23 @@ alias v="vagrant"
 alias dr="docker"
 alias dc="docker-compose"
 
+########
+## Load common shell aliases
+########
+
 source ~/dotfiles/scripts/setupAliases
+
+########
+## Load aliases to run certain commands inside containers
+########
 
 if [ -f ~/dockerfiles/aliases ]; then
     source ~/dockerfiles/aliases
 fi
+
+########
+## Load NVM
+########
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
