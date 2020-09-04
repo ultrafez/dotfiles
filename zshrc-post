@@ -2,6 +2,9 @@
 
 source ~/dotfiles/shrc
 
+# Make fzf show a 3-line high preview window when pressing Ctrl-R in a shell
+export FZF_CTRL_R_OPTS="--preview 'echo {}' --preview-window down:3:wrap"
+
 # If fzf is installed, load it
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
