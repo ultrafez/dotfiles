@@ -2,6 +2,7 @@
 alias bbqs="~/dotfiles/scripts/bbqs.sh"
 alias tf="terraform"
 alias gdc="git diff --cached"
+alias k="kubectl"
 
 # Set the upstream branch on the remote based on the current branch name
 alias gsu="git branch -u origin/`git rev-parse --abbrev-ref HEAD`"
