@@ -5,5 +5,10 @@ alias gdc="git diff --cached"
 alias k="kubectl"
 
 # Set the upstream branch on the remote based on the current branch name
-alias gsu="git branch -u origin/`git rev-parse --abbrev-ref HEAD`"
+alias gsu='git branch -u origin/`git rev-parse --abbrev-ref HEAD`'
+
+# Create an alias that always refers to the root of the current git repo
+#grt () {
+#  git rev-parse --show-toplevel
+#}
 
