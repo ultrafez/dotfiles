@@ -1,4 +1,4 @@
-# Set up global aliases to handy scripts
+# Useful aliases
 alias bbqs="~/dotfiles/scripts/bbqs.sh"
 alias tf="terraform"
 alias gdc="git diff --cached"

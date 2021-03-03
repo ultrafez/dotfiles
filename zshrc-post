@@ -8,3 +8,9 @@ export FZF_CTRL_R_OPTS="--preview 'echo {}' --preview-window down:3:wrap"
 # If fzf is installed, load it
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+# Global alias to define "~@" to represent the root of the current git repo
+# Example usage:
+# cd ~@/src/lib
+# Commented out as it doesn't work in all scenarios
+# alias -g ~@='`git rev-parse --show-toplevel`'
+
