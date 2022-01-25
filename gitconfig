@@ -11,18 +11,12 @@
 	co = checkout
     # fuzzy checkout - checkout a branch containing the string (even if the branch only exists on the remote)
 	c = "!f() { git branch -a | sed 's/remotes\\/origin\\///g' | grep -v 'HEAD' | grep $1 | sort | uniq | xargs git checkout; }; f"
-	ci = commit
 	st = status
-	s = status
 	f = fetch
 	ff = merge --ff-only
 	ffo = "!git merge --ff-only origin/$1"
-	b = branch
 	br = branch
-	r = rebase
 	rc = rebase --continue
-	m = merge
-	d = diff
 	dc = diff --cached
 	rh = reset --hard @{u}
 	#review = "!f() { git merge $1 --no-commit --no-ff; git diff --cached; }; f"
