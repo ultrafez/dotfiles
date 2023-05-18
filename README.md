@@ -21,7 +21,7 @@ source ~/dotfiles/bashrc
 
 * `gitignore` - Global git ignore. No setup required; included automatically by `gitconfig`
 
-* `homebrew` - List of Mac OS `homebrew` packages. Generated with `brew leaves`
+* `Brewfile` - Mac OS `homebrew` packages. Generated with `brew bundle dump`. Install with `brew bundle install --file=./Brewfile`
 
 * `tmux.conf` - tmux settings. Link it like so:
 
