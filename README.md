@@ -41,24 +41,6 @@ source ~/dotfiles/vimrc
 
 * `shrc` - Common shell configuration including aliases etc. Don't include this file directly in a shell config - make a shell-specific config file, and include this one. Loads aliases from [dockerfiles repo](https://github.com/ultrafez/dockerfiles) if it's checked out.
 
-* `sublime-text` - Configuration for Sublime Text 3. Doesn't include SublimeGit config as it includes a license key.
-
-```
-On Linux:
-
-From ~/.config/sublime-text-3/Packages:
-mv User User-old
-ln -s ~/dotfiles/sublime-text/User User
-
-On OS X:
-
-From ~/Library/Application Support/Sublime Text 3/Packages:
-mv User User-old
-ln -s ~/dotfiles/sublime-text/User User
-```
-
-Install Package Control and then restart Sublime a few times to finish setting everything up.
-
 * `zshrc-pre` - zsh config script that gets run _before_ oh-my-zsh is loaded (if using). Includes oh-my-zsh settings. Limit to zsh-specific commands that must occur before oh-my-zsh is loaded.
 
 * `zshrc-post` - zsh config script that gets sourced _after_ oh-my-zsh is loaded (if using). Includes common shell config from `shrc`. Limit to zsh-specific commands; anything compatible with multiple shells should go in `shrc` instead.
