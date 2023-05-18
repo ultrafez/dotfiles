@@ -48,6 +48,7 @@ brew "saulpw/vd/visidata"
 
 # GUI tools
 cask "alfred"
+cask "arc"
 cask "android-platform-tools"
 cask "blackhole-2ch"
 cask "bluesnooze"
