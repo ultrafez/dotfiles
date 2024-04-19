@@ -1,6 +1,4 @@
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
 
 # Shell tools
 brew "autojump"
@@ -24,9 +22,6 @@ brew "maven"
 brew "openjdk@11"
 cask "temurin"
 brew "vault"
-
-tap "wagoodman/dive"
-brew "wagoodman/dive/dive"
 
 tap "turbot/tap"
 brew "turbot/tap/steampipe"
