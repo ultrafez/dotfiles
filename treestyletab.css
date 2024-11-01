@@ -1,0 +1,57 @@
+/* Show title of unread tabs with red and italic font */
+
+:root.sidebar tab-item.unread .label-content {
+  color: red !important;
+  font-style: italic !important;
+}
+
+
+/* Add private browsing indicator per tab */
+/*
+:root.sidebar tab-item.private-browsing tab-label:before {
+  content: "🕶";
+}
+*/
+
+/* tweaks for font size and spacing */
+tab-item-substance {
+  font-size: 14px;
+  --tab-vertical-padding: 0.25em;
+  --tab-dropshadow-padding: 0;
+}
+
+/* make the child expander almost take up no space as I don't use tree tabs */
+tab-item tab-twisty {
+  margin-right: -0.75em;
+}
+
+/* show scrollbar on the rigth hand side */
+:root.left #tabbar {
+  direction: ltr;
+  overflow-x: hidden;
+}
+
+/* hide scrollbar until hovering over tabs */
+#tabbar.overflow #normal-tabs-container { scrollbar-width: none; }
+#tabbar.overflow #pinned-tabs-container { scrollbar-width: none; }
+
+#tabbar.overflow:hover #normal-tabs-container {
+  scrollbar-width: auto;
+}
+#tabbar.overflow:hover #normal-tabs-container ul.tabs {
+  margin-right: -15px;
+}
+#tabbar.overflow:hover #pinned-tabs-container {
+  scrollbar-width: auto;
+}
+#tabbar.overflow:hover #pinned-tabs-container ul.tabs {
+  margin-right: -15px;
+}
+
+/* only show close tab button on hover */
+#tabbar tab-item tab-item-substance:not(:hover) tab-closebox {
+  display: none;
+}
+#tabbar tab-item tab-item-substance:hover tab-closebox {
+  display: block;
+}

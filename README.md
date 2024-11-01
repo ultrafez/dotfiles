@@ -62,3 +62,8 @@ source ~/dotfiles/zshrc-pre
 
 source ~/dotfiles/zshrc-post
 ```
+
+* `treestyletab.css` - User styles for Tree Style Tabs Firefox addon
+
+Open addon settings, enable viewing advanced settings, load styles from file near the bottom
+
