@@ -26,10 +26,6 @@ brew "openjdk@11"
 brew "openjdk@17"
 brew "python-setuptools"
 cask "temurin"
-brew "vault"
-
-tap "turbot/tap"
-brew "turbot/tap/steampipe"
 
 # General tools
 brew "ffmpeg"
