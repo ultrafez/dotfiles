@@ -1,5 +1,4 @@
 # Useful aliases
-alias bbqs="~/dotfiles/scripts/bbqs.sh"
 alias tf="terraform"
 alias gdc="git diff --cached"
 alias k="kubectl"
