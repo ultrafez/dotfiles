@@ -10,7 +10,7 @@ if command -v fzf &> /dev/null; then
   source <(fzf --zsh)
 fi
 
-source <(kubectl completion zsh)
+#source <(kubectl completion zsh)
 
 # Global alias to define "~@" to represent the root of the current git repo
 # Example usage:
