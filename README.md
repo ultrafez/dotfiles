@@ -4,6 +4,14 @@ My personal configuration files and directories. Files/directories are stored wi
 
 Dotfiles that aren't platform-specific should live in this root directory; platform-specific ones should live inside a directory specific to that platform.
 
+## Basics
+
+Assumes use of:
+* `zsh` for shell
+* `oh-my-zsh` for plugin management
+* `powerlevel10k` theme installed and configured
+* Homebrew installed/available
+
 ## Files/Directories
 
 * `bashrc` - bash shell configuration file. Include it in `~/.bashrc` like so:

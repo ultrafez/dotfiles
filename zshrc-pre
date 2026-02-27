@@ -2,7 +2,7 @@
 # It is assumed that we're using oh-my-zsh.
 # Some of the options in here are added to ~/.zshrc in a default oh-my-zsh installation
 
-ZSH_THEME="steeef"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
