@@ -27,7 +27,6 @@ brew "jq"
 # General tools
 #brew "ffmpeg"
 brew "gron"
-#brew "nmap"
 #brew "python@3.10"
 #brew "rclone"
 #brew "ruby"

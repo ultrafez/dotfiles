@@ -1,4 +1,5 @@
 cask "discord"
 cask "maestral"
+brew "nmap"
 cask "tailscale-app"
 cask "vlc"
