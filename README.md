@@ -82,3 +82,9 @@ source ~/dotfiles/zshrc-post
 
 Open addon settings, enable viewing advanced settings, load styles from file near the bottom
 
+* `com.knollsoft.Rectangle.plist` - Settings and keyboard shortcuts for Rectangle app
+
+```
+rm ~/Library/Preferences/com.knollsoft.Rectangle.plist
+ln -s ~/dotfiles/com.knollsoft.Rectangle.plist ~/Library/Preferences/com.knollsoft.Rectangle.plist
+```
