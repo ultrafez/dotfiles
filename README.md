@@ -84,7 +84,8 @@ Open addon settings, enable viewing advanced settings, load styles from file nea
 
 * `com.knollsoft.Rectangle.plist` - Settings and keyboard shortcuts for Rectangle app
 
+Rectangle does not seem to like reading/writing to a symlink, so manually sync by copying:
 ```
 rm ~/Library/Preferences/com.knollsoft.Rectangle.plist
-ln -s ~/dotfiles/com.knollsoft.Rectangle.plist ~/Library/Preferences/com.knollsoft.Rectangle.plist
+cp ~/dotfiles/com.knollsoft.Rectangle.plist ~/Library/Preferences/com.knollsoft.Rectangle.plist
 ```
